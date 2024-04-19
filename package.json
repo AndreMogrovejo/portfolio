@@ -1,5 +1,5 @@
 {
-  "name": "astro_porfolio",
+  "name": "astro_portfolio",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -7,16 +7,46 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint": "eslint --fix .",
+    "lint:staged": "yarn lint --max-warnings=0",
+    "format": "yarn prettier --write",
+    "devServer": "live-server",
+    "compile": "yarn build:css",
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass src/sass/main.scss src/css/style.comp.css",
+    "concat:css": "concat -o src/css/style.concat.css src/css/icon-font.css src/css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/css/style.concat.css -o src/css/style.prefix.css",
+    "compress:css": "node-sass src/css/style.prefix.css src/css/style.css --output-style compressed",
+    "build:css": "yarn compile:sass && yarn concat:css && yarn prefix:css && yarn compress:css"
   },
   "dependencies": {
     "@astrojs/react": "^3.3.0",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "astro": "^4.6.3",
+    "autoprefixer": "^10.4.19",
+    "concat": "^1.0.3",
+    "depcheck": "^1.4.7",
+    "polished": "^4.3.1",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@astrojs/check": "^0.5.10",
-    "typescript": "^5.4.5"
+    "typescript": "5.3.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/js": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.34.1",
+    "globals": "^15.0.0",
+    "node-sass": "^9.0.0",
+    "prettier": "^3.2.5"
   }
 }
