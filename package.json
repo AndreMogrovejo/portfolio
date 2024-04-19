@@ -18,7 +18,8 @@
     "concat:css": "concat -o src/css/style.concat.css src/css/icon-font.css src/css/style.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/css/style.concat.css -o src/css/style.prefix.css",
     "compress:css": "node-sass src/css/style.prefix.css src/css/style.css --output-style compressed",
-    "build:css": "yarn compile:sass && yarn concat:css && yarn prefix:css && yarn compress:css"
+    "build:css": "yarn compile:sass && yarn concat:css && yarn prefix:css && yarn compress:css",
+    "postinstall": "yarn compile && yarn start"
   },
   "dependencies": {
     "@astrojs/react": "^3.3.0",
