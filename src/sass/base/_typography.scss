@@ -17,7 +17,7 @@ body {
     font-size: 6rem;
     font-weight: 400;
     letter-spacing: 3.5rem;
-    animation-name: moveinLeft;
+    animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
 
@@ -35,7 +35,7 @@ body {
     font-size: 2.4rem;
     font-weight: 700;
     letter-spacing: 1.8rem;
-    animation: moveinRight 1s ease-out;
+    animation: moveInRight 1s ease-out;
 
     @include respond(phone) {
       letter-spacing: 0.5rem;

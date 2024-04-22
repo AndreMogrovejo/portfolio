@@ -6,51 +6,52 @@ const Footer: React.FC<Props> = props => {
   return (
     <footer className="footer">
       <div className="footer__logo-box">
-        <picture className="footer__logo">
-          <source
-            srcSet="./logo-green-small-1x.png 1x, ./logo-green-small-2x.png 2x"
-            media="(max-width: 37.5em)"
-          />
-          <img
-            srcSet="./logo-green-1x.png 1x, ./logo-green-2x.png 2x"
-            alt="full logo"
-            className="footer__logo"
-            src="./logo-green-2x.png"
-          />
-        </picture>
+        <span className="footer__logo heading-primary--main text-white text-6xl tracking-normal">
+          {"<AM />"}
+        </span>
       </div>
       <div className="row">
         <div className="col-1-of-2">
           <div className="footer__navigation">
             <ul className="footer__list">
               <li className="footer__item">
-                <a href="" className="footer__link">
+                <a
+                  href="https://www.linkedin.com/in/andre-mogrovejom/"
+                  target="_blank"
+                  className="footer__link"
+                >
                   {" "}
-                  Company{" "}
+                  Linkedin{" "}
                 </a>
               </li>
               <li className="footer__item">
-                <a href="" className="footer__link">
+                <a
+                  href="https://github.com/AndreMogrovejo"
+                  target="_blank"
+                  className="footer__link"
+                >
                   {" "}
-                  Contact us{" "}
+                  Enterprise Github{" "}
                 </a>
               </li>
               <li className="footer__item">
-                <a href="" className="footer__link">
+                <a
+                  href="https://github.com/AndreMogrovejoM"
+                  target="_blank"
+                  className="footer__link"
+                >
                   {" "}
-                  Careers{" "}
+                  Personal Github{" "}
                 </a>
               </li>
               <li className="footer__item">
-                <a href="" className="footer__link">
+                <a
+                  href="https://www.instagram.com/andrew_mm96/"
+                  target="_blank"
+                  className="footer__link"
+                >
                   {" "}
-                  Privacy policy{" "}
-                </a>
-              </li>
-              <li className="footer__item">
-                <a href="" className="footer__link">
-                  {" "}
-                  Terms{" "}
+                  Instagram{" "}
                 </a>
               </li>
             </ul>
@@ -58,15 +59,14 @@ const Footer: React.FC<Props> = props => {
         </div>
         <div className="col-1-of-2">
           <p className="footer__copyright">
-            Built my{" "}
-            <a href="" className="footer__link">
-              Andre Mogrovejo
-            </a>{" "}
-            for his online course
-            <a href="" className="footer__link">
-              Advanced CSS and Sass
+            Thank you to dedicate your time to see my{" "}
+            <a
+              href="https://www.linkedin.com/in/andre-mogrovejom/"
+              target="_blank"
+              className="footer__link"
+            >
+              Portfolio
             </a>
-            . Copyright &copy; by Andre Mogrovejo.
           </p>
         </div>
       </div>

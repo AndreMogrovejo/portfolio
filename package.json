@@ -19,10 +19,11 @@
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/css/style.concat.css -o src/css/style.prefix.css",
     "compress:css": "node-sass src/css/style.prefix.css src/css/style.css --output-style compressed",
     "build:css": "yarn compile:sass && yarn concat:css && yarn prefix:css && yarn compress:css",
-    "postinstall": "yarn compile && yarn start"
+    "postinstall": "yarn compile"
   },
   "dependencies": {
     "@astrojs/react": "^3.3.0",
+    "@astrojs/tailwind": "^5.1.0",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "astro": "^4.6.3",
@@ -34,6 +35,7 @@
     "postcss-cli": "^11.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.3",
     "typescript": "5.3.3"
   },
   "devDependencies": {

@@ -65,7 +65,7 @@ const Book: React.FC<Props> = props => {
               </div>
 
               <div className="form__group">
-                <button className="btn btn--green">Next step &rarr;</button>
+                <button className="btn btn--primary">Next step &rarr;</button>
               </div>
             </form>
           </div>

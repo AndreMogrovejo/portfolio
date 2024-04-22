@@ -4,7 +4,7 @@ import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import About from "../components/About/About";
 import Features from "../components/Features/Features";
-import Tours from "../components/Tours/Tours";
+import Certificates from "../components/Certificates/Certificates";
 import Stories from "../components/Stories/Stories";
 import Book from "../components/Book/Book";
 import Popup from "../components/Popup/Popup";
@@ -28,19 +28,21 @@ const someProps = {
 
     <link rel="stylesheet" href="src/css/icon-font.css" />
     <link rel="stylesheet" href="src/css/style.css" />
-    <link rel="shortcut icon" type="image/png" href="./favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="./favicon.svg" />
 
     <title>Andre Mogrovejo | Lead Frontend Engineer</title>
   </head>
-  <body>
+  <body class="relative h-full w-full bg-grey-light-1 dark:bg-grey-dark-3">
+    <div class="absolute bottom-0 left-[-20%] right-0 top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div>
+    <div class="absolute bottom-0 right-[-20%] top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div>
     <Header/>
     <main>
       <Navbar/>
       <About/>
       <Features/>
-      <Tours/>
+      <Certificates/>
       <Stories/>
-      <Book/>
+      <!-- <Book/> -->
     </main>
     <Footer/>
     <Popup/>

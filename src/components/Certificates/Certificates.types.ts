@@ -1,4 +1,4 @@
-// Interfaces and types from component Tours
+// Interfaces and types from component Certificates
 
 // Component Props
 export interface ToursProps {}

@@ -3,79 +3,77 @@ import React from "react";
 import { AboutProps as Props } from "./About.types";
 
 const About: React.FC<Props> = props => {
+  const renderImages = (
+    <div className="col-1-of-2">
+      <div className="composition">
+        <img
+          srcSet="./Kfc.png 300w, ./Kfc.png 1000w"
+          alt="KFC"
+          sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+          className="composition__photo composition__photo--p1"
+          src="./Kfc.png"
+        />
+        <img
+          srcSet="./Appedir.png 300w, ./Appedir.png 1000w"
+          alt="Appedir"
+          sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+          className="composition__photo composition__photo--p2"
+          src="./Appedir.png"
+        />
+        <img
+          srcSet="./Multicines.png 300w, ./Multicines.png 1000w"
+          alt="Multicines"
+          sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+          className="composition__photo composition__photo--p3"
+          src="./Multicines.png"
+        />
+      </div>
+    </div>
+  );
+
   return (
-    <section className="section-about">
+    <section className="section-about" id="about">
       <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">
-          Exciting tours for adventurous people
-        </h2>
+        <h2 className="heading-secondary">About me</h2>
       </div>
 
       <div className="row">
         <div className="col-1-of-2">
           <h3 className="heading-tertiary u-margin-bottom-small">
-            You're going to fall in love with nature
+            Lead Frontend Engineer with +3 years of experience
           </h3>
           <p className="paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
-            quisquam.Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatum, quisquam.
+            Currently, I am working for a leading technology company in South
+            America called Trade.ec, where I have worked on large projects such
+            as:{" "}
+            <span className="font-bold">
+              KFC, Appedir, Multicines, Juan Valdez, Wendys, El Español Gourmet
+            </span>{" "}
+            among others.
           </p>
 
           <h3 className="heading-tertiary u-margin-bottom-small">
-            Live adventures like you never have before
+            My rol focus on
           </h3>
           <p className="paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
-            quisquam.Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatum, quisquam.
+            I led the development and implementation of new features in the web
+            and mobile applications of{" "}
+            <span className="font-bold">
+              Multicines, Wendys, and Pure Nature
+            </span>
+            , among others. Although I continue to provide support to the rest
+            of the projects in which I had the opportunity to participate.
           </p>
 
-          <a href="#" className="btn-text">
+          <a
+            href="https://trdglobal.io/trabajos.html"
+            target="_blank"
+            className="btn-text"
+          >
             Learn more &rarr;
           </a>
         </div>
-        <div className="col-1-of-2">
-          <div className="composition">
-            <img
-              srcSet="./nat-1.jpg 300w, ./nat-1-large.jpg 1000w"
-              alt="Photo 1"
-              sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-              className="composition__photo composition__photo--p1"
-              src="./nat-1-large.jpg"
-            />
-            <img
-              srcSet="./nat-2.jpg 300w, ./nat-2-large.jpg 1000w"
-              alt="Photo 2"
-              sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-              className="composition__photo composition__photo--p2"
-              src="./nat-2-large.jpg"
-            />
-            <img
-              srcSet="./nat-3.jpg 300w, ./nat-3-large.jpg 1000w"
-              alt="Photo 3"
-              sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-              className="composition__photo composition__photo--p3"
-              src="./nat-3-large.jpg"
-            />
-
-            <img
-              src="./nat-1-large.jpg"
-              alt="Photo 1"
-              className="composition__photo composition__photo--p1"
-            />
-            <img
-              src="./nat-2-large.jpg"
-              alt="Photo 2"
-              className="composition__photo composition__photo--p2"
-            />
-            <img
-              src="./nat-3-large.jpg"
-              alt="Photo 3"
-              className="composition__photo composition__photo--p3"
-            />
-          </div>
-        </div>
+        {renderImages}
       </div>
     </section>
   );
