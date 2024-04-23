@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro check && astro build",
+    "build": "yarn compile astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "lint": "eslint --fix .",
@@ -14,12 +14,11 @@
     "devServer": "live-server",
     "compile": "yarn build:css",
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
-    "compile:sass": "node-sass src/sass/main.scss css/style.comp.css",
-    "concat:css": "concat -o css/style.concat.css css/icon-font.css css/style.comp.css",
-    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.concat.css -o css/style.prefix.css",
-    "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
-    "build:css": "yarn compile:sass && yarn concat:css && yarn prefix:css && yarn compress:css",
-    "postinstall": "yarn compile"
+    "compile:sass": "node-sass src/sass/main.scss src/css/style.comp.css",
+    "concat:css": "concat -o src/css/style.concat.css ./public/icon-font.css src/css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' src/css/style.concat.css -o src/css/style.prefix.css",
+    "compress:css": "node-sass src/css/style.prefix.css ./public/style.css --output-style compressed",
+    "build:css": "yarn compile:sass && yarn concat:css && yarn prefix:css && yarn compress:css"
   },
   "dependencies": {
     "@astrojs/react": "^3.3.0",
