@@ -28,7 +28,7 @@ const Navbar: React.FC<Props> = props => {
           </li>
           <li className="navigation__item">
             <a href="#" className="navigation__link">
-              <span>03</span> Popular Certificates
+              <span>03</span> Popular Projects
             </a>
           </li>
           <li className="navigation__item">

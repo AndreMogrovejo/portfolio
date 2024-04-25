@@ -51,49 +51,50 @@
     }
   }
 
-  &:hover &__side--front {
-    transform: rotateY(-180deg);
-  }
+  // &:hover &__side--front {
+  //   transform: rotateY(-180deg);
+  // }
 
-  &:hover &__side--back {
-    transform: rotateY(0);
-  }
+  // &:hover &__side--back {
+  //   transform: rotateY(0);
+  // }
 
   // FRONT SIDE STYLING
   &__picture {
     background-size: cover;
-    height: 23rem;
+    height: 33rem;
     background-blend-mode: screen;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
+    margin-top: -10rem;
 
     &--1 {
       background-image: linear-gradient(
           to right bottom,
-          $color-secondary-light,
-          $color-secondary-dark
+          rgba($color-secondary-light, 0.1),
+          rgba($color-secondary-dark, 0.1)
         ),
-        url(/nat-5.jpg);
+        url(/Multicines.png);
     }
 
     &--2 {
       background-image: linear-gradient(
           to right bottom,
-          $color-primary-light,
-          $color-primary-dark
+          rgba($color-primary-light, 0.1),
+          rgba($color-primary-dark, 0.1)
         ),
-        url(/nat-6.jpg);
+        url(/Kfc.png);
     }
 
     &--3 {
       background-image: linear-gradient(
           to right bottom,
-          $color-tertiary-light,
-          $color-tertiary-dark
+          rgba($color-tertiary-light, 0.1),
+          rgba($color-tertiary-dark, 0.1)
         ),
-        url(/nat-7.jpg);
+        url(/Appedir.png);
     }
   }
 

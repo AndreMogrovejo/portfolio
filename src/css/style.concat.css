@@ -743,24 +743,21 @@ body {
         background-image: linear-gradient(to right bottom, #535c91, #070f2b); }
       .card__side--back-3 {
         background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
-  .card:hover .card__side--front {
-    transform: rotateY(-180deg); }
-  .card:hover .card__side--back {
-    transform: rotateY(0); }
   .card__picture {
     background-size: cover;
-    height: 23rem;
+    height: 33rem;
     background-blend-mode: screen;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     border-top-left-radius: 3px;
-    border-top-right-radius: 3px; }
+    border-top-right-radius: 3px;
+    margin-top: -10rem; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(/nat-5.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.1), rgba(255, 119, 48, 0.1)), url(/Multicines.png); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #535c91, #070f2b), url(/nat-6.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(83, 92, 145, 0.1), rgba(7, 15, 43, 0.1)), url(/Kfc.png); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(/nat-7.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.1), rgba(86, 67, 250, 0.1)), url(/Appedir.png); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -1383,6 +1380,25 @@ body {
   top: 0;
   transform: rotate(-135deg); }
 
+.swiper {
+  width: 100%;
+  height: 100%; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
 .section-about {
   background-color: #f7f7f7;
   padding: 25rem 0;
@@ -1403,12 +1419,12 @@ body {
     .section-features {
       padding: 10rem 0; } }
 
-.section-certificates {
+.section-projects {
   background-color: #f7f7f7;
   padding: 25rem 0 15rem 0;
   margin-top: -10rem; }
   @media only screen and (max-width: 56.25em) {
-    .section-certificates {
+    .section-projects {
       padding: 20rem 0 10rem 0; } }
 
 .section-stories {

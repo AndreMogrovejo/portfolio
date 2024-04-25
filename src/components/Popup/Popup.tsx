@@ -11,7 +11,7 @@ const Popup: React.FC<Props> = props => {
           <img src="./nat-9.jpg" alt="Tour photo" className="popup__img" />
         </div>
         <div className="popup__right">
-          <a href="#section-certificates" className="popup__close">
+          <a href="#section-projects" className="popup__close">
             &times;
           </a>
           <h2 className="heading-secondary u-margin-bottom-small">
