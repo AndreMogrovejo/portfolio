@@ -20,7 +20,7 @@ const Stories: React.FC<Props> = props => {
         <div className="story">
           <figure className="story__shape">
             <img
-              src="./nat-8.jpg"
+              src="./Multicines.webp"
               alt="Person on a tour"
               className="story__img"
             />
@@ -45,7 +45,7 @@ const Stories: React.FC<Props> = props => {
         <div className="story">
           <figure className="story__shape">
             <img
-              src="./nat-9.jpg"
+              src="./Appedir.webp"
               alt="Person on a tour"
               className="story__img"
             />

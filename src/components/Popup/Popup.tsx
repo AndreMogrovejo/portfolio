@@ -7,8 +7,12 @@ const Popup: React.FC<Props> = props => {
     <div className="popup" id="popup">
       <div className="popup__content">
         <div className="popup__left">
-          <img src="./nat-8.jpg" alt="Tour photo" className="popup__img" />
-          <img src="./nat-9.jpg" alt="Tour photo" className="popup__img" />
+          <img
+            src="./Multicines.webp"
+            alt="Tour photo"
+            className="popup__img"
+          />
+          <img src="./Appedir.webp" alt="Tour photo" className="popup__img" />
         </div>
         <div className="popup__right">
           <a href="#section-projects" className="popup__close">

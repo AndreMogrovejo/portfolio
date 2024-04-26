@@ -38,7 +38,7 @@
       rgba($color-primary-light, 0.8),
       rgba($color-primary-dark, 0.8)
     ),
-    url(/workspace-2.jpg);
+    url(/workspace-2.webp);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem;
@@ -91,7 +91,7 @@
       rgba($color-white, 0.9) 50%,
       transparent 50%
     ),
-    url(/nat-10.jpg);
+    url(/Appedir.webp);
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
@@ -103,7 +103,7 @@
         rgba($color-white, 0.9) 65%,
         transparent 65%
       ),
-      url(/nat-10.jpg);
+      url(/Multicines.webp);
     background-size: cover;
   }
 
@@ -113,7 +113,7 @@
         rgba($color-white, 0.9) 0%,
         rgba($color-white, 0.9) 100%
       ),
-      url(/nat-10.jpg);
+      url(/Multicines.webp);
   }
 
   &__form {

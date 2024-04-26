@@ -753,11 +753,11 @@ body {
     border-top-right-radius: 3px;
     margin-top: -10rem; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.1), rgba(255, 119, 48, 0.1)), url(/Multicines.png); }
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.1), rgba(255, 119, 48, 0.1)), url(/Multicines.webp); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, rgba(83, 92, 145, 0.1), rgba(7, 15, 43, 0.1)), url(/Kfc.png); }
+      background-image: linear-gradient(to right bottom, rgba(83, 92, 145, 0.1), rgba(7, 15, 43, 0.1)), url(/Kfc.webp); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.1), rgba(86, 67, 250, 0.1)), url(/Appedir.png); }
+      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.1), rgba(86, 67, 250, 0.1)), url(/Appedir.webp); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -1189,7 +1189,7 @@ body {
 
 .header {
   height: 85vh;
-  background-image: linear-gradient(to right bottom, rgba(83, 92, 145, 0.8), rgba(7, 15, 43, 0.8)), url(/hero-small.jpg);
+  background-image: linear-gradient(to right bottom, rgba(83, 92, 145, 0.8), rgba(7, 15, 43, 0.8)), url(/hero-small.webp);
   background-size: cover;
   background-position: top;
   position: relative; }
@@ -1200,7 +1200,7 @@ body {
       height: 95vh; } }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .header {
-      background-image: linear-gradient(to right bottom, rgba(83, 92, 145, 0.8), rgba(7, 15, 43, 0.8)), url(/hero.jpg); } }
+      background-image: linear-gradient(to right bottom, rgba(83, 92, 145, 0.8), rgba(7, 15, 43, 0.8)), url(/hero.webp); } }
   @media only screen and (max-width: 37.5em) {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
@@ -1414,7 +1414,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(83, 92, 145, 0.8), rgba(7, 15, 43, 0.8)), url(/workspace-2.jpg);
+  background-image: linear-gradient(to right bottom, rgba(83, 92, 145, 0.8), rgba(7, 15, 43, 0.8)), url(/workspace-2.webp);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
@@ -1447,17 +1447,17 @@ body {
       padding: 10rem 0; } }
 
 .book {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(/nat-10.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(/Appedir.webp);
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
   @media only screen and (max-width: 75em) {
     .book {
-      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(/nat-10.jpg);
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(/Multicines.webp);
       background-size: cover; } }
   @media only screen and (max-width: 56.25em) {
     .book {
-      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(/nat-10.jpg); } }
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(/Multicines.webp); } }
   .book__form {
     width: 50%;
     padding: 6rem; }
