@@ -149,12 +149,20 @@
       margin: 0 auto;
 
       li {
-        text-align: center;
         font-size: 1.5rem;
         padding: 1rem;
 
         &:not(:last-child) {
           border-bottom: 1px solid $color-grey-light-2;
+        }
+
+        p {
+          line-height: 1.2rem;
+          font-size: small;
+
+          @include respond(phone) {
+            display: none;
+          }
         }
       }
     }

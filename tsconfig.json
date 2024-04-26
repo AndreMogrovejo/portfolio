@@ -11,6 +11,12 @@
     "resolveJsonModule": true,
     "strict": true,
     "useUnknownInCatchVariables": false,
-    "verbatimModuleSyntax": false
+    "verbatimModuleSyntax": false,
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@icons/*": ["src/icons/*"],
+      "@assets/*": ["src/assets/*"]
+    }
   }
 }

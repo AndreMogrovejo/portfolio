@@ -1,0 +1,45 @@
+---
+import LinkedInIcon from "@icons/LinkedInIcon.astro"
+import PdfIcon from "@icons/PdfIcon.astro"
+
+---
+
+<header class="header" id="home">
+    <div class="header__logo-box">
+      <span class="heading-primary--main text-white  text-6xl tracking-normal ">
+        {"<AM />"}
+      </span>
+    </div>
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+        {/* <span class="heading-primary--sub text-lg tracking-wider">
+          Hello my name is
+        </span> */}
+        <span class="heading-primary--main text-6xl my-16">
+          Andre Mogrovejo
+        </span>
+        <span class="heading-primary--sub">Frontend Engineer</span>
+      </h1>
+
+      <a
+        class="btn btn--white btn--animated"
+        type="button"
+        href="https://www.linkedin.com/in/andre-mogrovejom/"
+        target="_blank"
+      >
+        <div class="flex justify-center mr-auto ml-auto">
+          <LinkedInIcon/> Go to Linkedin
+        </div>
+      </a>
+      <a
+        class="btn btn--white btn--animated mt-4 ml-0 lg:mt-0 lg:ml-4"
+        type="button"
+        href="./cv.pdf"
+        download="Andre_Mogrovejo_CV.pdf"
+      >
+        <div class="flex justify-center mr-auto ml-auto">
+          <PdfIcon/> Download CV
+        </div>
+      </a>
+    </div>
+  </header>
