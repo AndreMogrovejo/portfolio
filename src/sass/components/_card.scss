@@ -36,16 +36,40 @@
       &-2 {
         background-image: linear-gradient(
           to right bottom,
-          $color-primary-light,
-          $color-primary-dark
+          $color-tertiary-light,
+          $color-tertiary-dark
         );
       }
 
       &-3 {
         background-image: linear-gradient(
           to right bottom,
-          $color-tertiary-light,
-          $color-tertiary-dark
+          $color-kfc-light,
+          $color-kfc-dark
+        );
+      }
+
+      &-4 {
+        background-image: linear-gradient(
+          to right bottom,
+          $color-forth-light,
+          $color-forth-dark
+        );
+      }
+
+      &-5 {
+        background-image: linear-gradient(
+          to right bottom,
+          $color-five-light,
+          $color-five-dark
+        );
+      }
+
+      &-6 {
+        background-image: linear-gradient(
+          to right bottom,
+          $color-sixth-light,
+          $color-sixth-dark
         );
       }
     }
@@ -82,19 +106,46 @@
     &--2 {
       background-image: linear-gradient(
           to right bottom,
-          rgba($color-primary-light, 0.1),
-          rgba($color-primary-dark, 0.1)
+          rgba($color-tertiary-light, 0.1),
+          rgba($color-tertiary-dark, 0.1)
         ),
-        url(/Kfc.webp);
+        url(/Appedir.webp);
     }
 
     &--3 {
       background-image: linear-gradient(
           to right bottom,
-          rgba($color-tertiary-light, 0.1),
-          rgba($color-tertiary-dark, 0.1)
+          rgba($color-kfc-light, 0.1),
+          rgba($color-kfc-dark, 0.1)
         ),
-        url(/Appedir.webp);
+        url(/Kfc.webp);
+    }
+
+    &--4 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba($color-forth-light, 0.1),
+          rgba($color-forth-dark, 0.1)
+        ),
+        url(/konecta.webp);
+    }
+
+    &--5 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba($color-five-light, 0.1),
+          rgba($color-five-dark, 0.1)
+        ),
+        url(/live-subastas.webp);
+    }
+
+    &--6 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba($color-sixth-light, 0.1),
+          rgba($color-sixth-dark, 0.1)
+        ),
+        url(/aero-administrator.webp);
     }
   }
 
@@ -126,16 +177,40 @@
     &--2 {
       background-image: linear-gradient(
         to right bottom,
-        rgba($color-primary-light, 0.85),
-        rgba($color-primary-dark, 0.85)
+        rgba($color-tertiary-light, 0.85),
+        rgba($color-tertiary-dark, 0.85)
       );
     }
 
     &--3 {
       background-image: linear-gradient(
         to right bottom,
-        rgba($color-tertiary-light, 0.85),
-        rgba($color-tertiary-dark, 0.85)
+        rgba($color-kfc-light, 0.85),
+        rgba($color-kfc-dark, 0.85)
+      );
+    }
+
+    &--4 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-forth-light, 0.85),
+        rgba($color-forth-dark, 0.85)
+      );
+    }
+
+    &--5 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-five-light, 0.85),
+        rgba($color-five-dark, 0.85)
+      );
+    }
+
+    &--6 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-sixth-light, 0.85),
+        rgba($color-sixth-dark, 0.85)
       );
     }
   }

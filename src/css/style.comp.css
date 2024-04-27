@@ -294,9 +294,15 @@ body {
       .card__side--back-1 {
         background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
       .card__side--back-2 {
-        background-image: linear-gradient(to right bottom, #535c91, #070f2b); }
+        background-image: linear-gradient(to right bottom, #6c22a6, #512b81); }
       .card__side--back-3 {
-        background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
+        background-image: linear-gradient(to right bottom, #fa0025, #851724); }
+      .card__side--back-4 {
+        background-image: linear-gradient(to right bottom, #576cbc, #19376d); }
+      .card__side--back-5 {
+        background-image: linear-gradient(to right bottom, #ff8a08, #ff6500); }
+      .card__side--back-6 {
+        background-image: linear-gradient(to right bottom, #576cbc, #0b2447); }
   .card__picture {
     background-size: cover;
     height: 33rem;
@@ -309,9 +315,15 @@ body {
     .card__picture--1 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.1), rgba(255, 119, 48, 0.1)), url(/Multicines.webp); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, rgba(83, 92, 145, 0.1), rgba(7, 15, 43, 0.1)), url(/Kfc.webp); }
+      background-image: linear-gradient(to right bottom, rgba(108, 34, 166, 0.1), rgba(81, 43, 129, 0.1)), url(/Appedir.webp); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.1), rgba(86, 67, 250, 0.1)), url(/Appedir.webp); }
+      background-image: linear-gradient(to right bottom, rgba(250, 0, 37, 0.1), rgba(133, 23, 36, 0.1)), url(/Kfc.webp); }
+    .card__picture--4 {
+      background-image: linear-gradient(to right bottom, rgba(87, 108, 188, 0.1), rgba(25, 55, 109, 0.1)), url(/konecta.webp); }
+    .card__picture--5 {
+      background-image: linear-gradient(to right bottom, rgba(255, 138, 8, 0.1), rgba(255, 101, 0, 0.1)), url(/live-subastas.webp); }
+    .card__picture--6 {
+      background-image: linear-gradient(to right bottom, rgba(87, 108, 188, 0.1), rgba(11, 36, 71, 0.1)), url(/aero-administrator.webp); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -329,9 +341,15 @@ body {
     .card__heading-span--1 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
     .card__heading-span--2 {
-      background-image: linear-gradient(to right bottom, rgba(83, 92, 145, 0.85), rgba(7, 15, 43, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(108, 34, 166, 0.85), rgba(81, 43, 129, 0.85)); }
     .card__heading-span--3 {
-      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(250, 0, 37, 0.85), rgba(133, 23, 36, 0.85)); }
+    .card__heading-span--4 {
+      background-image: linear-gradient(to right bottom, rgba(87, 108, 188, 0.85), rgba(25, 55, 109, 0.85)); }
+    .card__heading-span--5 {
+      background-image: linear-gradient(to right bottom, rgba(255, 138, 8, 0.85), rgba(255, 101, 0, 0.85)); }
+    .card__heading-span--6 {
+      background-image: linear-gradient(to right bottom, rgba(87, 108, 188, 0.85), rgba(11, 36, 71, 0.85)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {

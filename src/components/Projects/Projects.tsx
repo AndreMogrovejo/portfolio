@@ -82,32 +82,50 @@ const Projects: React.FC<Props> = props => {
     <div className="col-1-of-2">
       <div className="card">
         <div className="card__side card__side--front">
-          <div className="card__picture card__picture--3">&nbsp;</div>
+          <div className="card__picture card__picture--2">&nbsp;</div>
           <h4 className="card__heading">
-            <span className="card__heading-span card__heading-span--3">
+            <span className="card__heading-span card__heading-span--2">
               Appedir
             </span>
           </h4>
           <div className="card__details">
             <ul>
-              <li>Next.js</li>
-              <li>React Native / Expo</li>
-              <li>Api Rest</li>
-              <li>Sleep in cozy hotels</li>
-              <li>Difficulty: easy</li>
+              <li className="font-light">
+                I led the development and implementation of new features in the
+                web and mobile applications of{" "}
+                <span className="font-normal">
+                  Multicines, Wendys, and Pure Nature
+                </span>
+                , among others. Although I continue to provide support to the
+                rest of the projects in which I had the opportunity to
+                participate.
+              </li>
+              <li className="flex">
+                {renderNext}
+                {renderReactNative}
+                {renderExpo}
+                {renderReactQuery}
+                {renderZustand}
+                {renderTailwind}
+                {renderFirebase}
+                {renderTypescript}
+              </li>
+
+              <li className="flex">
+                {renderBugSnag}
+                {renderJest}
+                {renderGit}
+                {renderTurbo}
+                {renderEslint}
+                {renderCommitizen}
+                {renderBabel}
+                {renderJavascript}
+              </li>
             </ul>
           </div>
         </div>
-        <div className="card__side card__side--back card__side--back-3">
-          <div className="card__cta">
-            {/* <div className="card__price-box">
-              <p className="card__price-only">Only</p>
-              <p className="card__price-value">$397</p>
-            </div> */}
-            <a href="#popup" className="btn btn--white">
-              Check it out!
-            </a>
-          </div>
+        <div className="card__side card__side--back card__side--back-2 h-12">
+          <div className="card__cta"></div>
         </div>
       </div>
     </div>
@@ -117,32 +135,209 @@ const Projects: React.FC<Props> = props => {
     <div className="col-1-of-2">
       <div className="card">
         <div className="card__side card__side--front">
-          <div className="card__picture card__picture--2">&nbsp;</div>
+          <div className="card__picture card__picture--3">&nbsp;</div>
           <h4 className="card__heading">
-            <span className="card__heading-span card__heading-span--2">
+            <span className="card__heading-span card__heading-span--3">
               Kfc
             </span>
           </h4>
           <div className="card__details">
             <ul>
-              <li>Next.js</li>
-              <li>React Native / Expo</li>
-              <li>Api Rest</li>
-              <li>Sleep in cozy hotels</li>
-              <li>Difficulty: easy</li>
+              <li className="font-light">
+                I led the development and implementation of new features in the
+                web and mobile applications of{" "}
+                <span className="font-normal">
+                  Multicines, Wendys, and Pure Nature
+                </span>
+                , among others. Although I continue to provide support to the
+                rest of the projects in which I had the opportunity to
+                participate.
+              </li>
+              <li className="flex">
+                {renderNext}
+                {renderReactNative}
+                {renderExpo}
+                {renderReactQuery}
+                {renderZustand}
+                {renderTailwind}
+                {renderFirebase}
+                {renderTypescript}
+              </li>
+
+              <li className="flex">
+                {renderBugSnag}
+                {renderJest}
+                {renderGit}
+                {renderTurbo}
+                {renderEslint}
+                {renderCommitizen}
+                {renderBabel}
+                {renderJavascript}
+              </li>
             </ul>
           </div>
         </div>
-        <div className="card__side card__side--back card__side--back-2">
-          <div className="card__cta">
-            {/* <div className="card__price-box">
-              <p className="card__price-only">Only</p>
-              <p className="card__price-value">$397</p>
-            </div> */}
-            <a href="#popup" className="btn btn--white">
-              Check it out!
-            </a>
+        <div className="card__side card__side--back card__side--back-3 h-12">
+          <div className="card__cta"></div>
+        </div>
+      </div>
+    </div>
+  );
+
+  const KonectaProject = (
+    <div className="col-1-of-2">
+      <div className="card">
+        <div className="card__side card__side--front">
+          <div className="card__picture card__picture--4">&nbsp;</div>
+          <h4 className="card__heading">
+            <span className="card__heading-span card__heading-span--4">
+              Konecta
+            </span>
+          </h4>
+          <div className="card__details">
+            <ul>
+              <li className="font-light">
+                I led the development and implementation of new features in the
+                web and mobile applications of{" "}
+                <span className="font-normal">
+                  Multicines, Wendys, and Pure Nature
+                </span>
+                , among others. Although I continue to provide support to the
+                rest of the projects in which I had the opportunity to
+                participate.
+              </li>
+              <li className="flex">
+                {renderNext}
+                {renderReactNative}
+                {renderExpo}
+                {renderReactQuery}
+                {renderZustand}
+                {renderTailwind}
+                {renderFirebase}
+                {renderTypescript}
+              </li>
+
+              <li className="flex">
+                {renderBugSnag}
+                {renderJest}
+                {renderGit}
+                {renderTurbo}
+                {renderEslint}
+                {renderCommitizen}
+                {renderBabel}
+                {renderJavascript}
+              </li>
+            </ul>
           </div>
+        </div>
+        <div className="card__side card__side--back card__side--back-4 h-12">
+          <div className="card__cta"></div>
+        </div>
+      </div>
+    </div>
+  );
+
+  const LiveSubastasProject = (
+    <div className="col-1-of-2">
+      <div className="card">
+        <div className="card__side card__side--front">
+          <div className="card__picture card__picture--5">&nbsp;</div>
+          <h4 className="card__heading">
+            <span className="card__heading-span card__heading-span--5">
+              LiveSubastas
+            </span>
+          </h4>
+          <div className="card__details">
+            <ul>
+              <li className="font-light">
+                I led the development and implementation of new features in the
+                web and mobile applications of{" "}
+                <span className="font-normal">
+                  Multicines, Wendys, and Pure Nature
+                </span>
+                , among others. Although I continue to provide support to the
+                rest of the projects in which I had the opportunity to
+                participate.
+              </li>
+              <li className="flex">
+                {renderNext}
+                {renderReactNative}
+                {renderExpo}
+                {renderReactQuery}
+                {renderZustand}
+                {renderTailwind}
+                {renderFirebase}
+                {renderTypescript}
+              </li>
+
+              <li className="flex">
+                {renderBugSnag}
+                {renderJest}
+                {renderGit}
+                {renderTurbo}
+                {renderEslint}
+                {renderCommitizen}
+                {renderBabel}
+                {renderJavascript}
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="card__side card__side--back card__side--back-5 h-12">
+          <div className="card__cta"></div>
+        </div>
+      </div>
+    </div>
+  );
+
+  const AeroAdministratorProject = (
+    <div className="col-1-of-2">
+      <div className="card">
+        <div className="card__side card__side--front">
+          <div className="card__picture card__picture--6">&nbsp;</div>
+          <h4 className="card__heading">
+            <span className="card__heading-span card__heading-span--6">
+              Aero Administrator
+            </span>
+          </h4>
+          <div className="card__details">
+            <ul>
+              <li className="font-light">
+                I led the development and implementation of new features in the
+                web and mobile applications of{" "}
+                <span className="font-normal">
+                  Multicines, Wendys, and Pure Nature
+                </span>
+                , among others. Although I continue to provide support to the
+                rest of the projects in which I had the opportunity to
+                participate.
+              </li>
+              <li className="flex">
+                {renderNext}
+                {renderReactNative}
+                {renderExpo}
+                {renderReactQuery}
+                {renderZustand}
+                {renderTailwind}
+                {renderFirebase}
+                {renderTypescript}
+              </li>
+
+              <li className="flex">
+                {renderBugSnag}
+                {renderJest}
+                {renderGit}
+                {renderTurbo}
+                {renderEslint}
+                {renderCommitizen}
+                {renderBabel}
+                {renderJavascript}
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="card__side card__side--back card__side--back-6 h-12">
+          <div className="card__cta"></div>
         </div>
       </div>
     </div>
@@ -174,7 +369,13 @@ const Projects: React.FC<Props> = props => {
         <SwiperSlide>
           <div className="row mt-1 mb-1">
             {KfcProject}
-            {MulticinesProject}
+            {KonectaProject}
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="row mt-1 mb-1">
+            {LiveSubastasProject}
+            {AeroAdministratorProject}
           </div>
         </SwiperSlide>
       </Swiper>
