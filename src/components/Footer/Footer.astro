@@ -1,0 +1,75 @@
+---
+import EmailIcon from "@icons/Email.astro"
+import PhoneIcon from "@icons/Phone.astro"
+
+---
+
+<footer class="footer">
+  <div class="footer__logo-box">
+    <span class="footer__logo heading-primary--main text-white text-6xl tracking-normal">
+      {"<AM />"}
+    </span>
+  </div>
+  <div class="row">
+    <div class="col-1-of-2">
+      <div class="footer__navigation">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a
+              href="https://www.linkedin.com/in/andre-mogrovejom/"
+              target="_blank"
+              class="footer__link"
+            >
+              {" "}
+              Linkedin{" "}
+            </a>
+          </li>
+          <li class="footer__item">
+            <a
+              href="https://github.com/AndreMogrovejo"
+              target="_blank"
+              class="footer__link"
+            >
+              {" "}
+              Enterprise Github{" "}
+            </a>
+          </li>
+          <li class="footer__item">
+            <a
+              href="https://github.com/AndreMogrovejoM"
+              target="_blank"
+              class="footer__link"
+            >
+              {" "}
+              Personal Github{" "}
+            </a>
+          </li>
+          <li class="footer__item">
+            <a
+              href="https://www.instagram.com/andrew_mm96/"
+              target="_blank"
+              class="footer__link"
+            >
+              {" "}
+              Instagram{" "}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-1-of-2 flex justify-end ">
+      <p class="footer__copyright">
+        <span class="font-bold flex gap-2">
+          <EmailIcon />
+          Email Address:
+          amogrovejom@unsa.edu.pe
+        </span>
+        <span class="font-bold flex gap-2">
+          <PhoneIcon />
+          Phone Number:
+          +51 923825605
+        </span>
+      </p>
+    </div>
+  </div>
+</footer>

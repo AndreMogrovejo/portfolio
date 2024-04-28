@@ -1,7 +1,7 @@
 import { Icon } from "@iconify-icon/react";
 
 export const renderNext = (
-  <div className="w-20">
+  <div className="w-24">
     <Icon
       width={24}
       height={24}
@@ -13,7 +13,7 @@ export const renderNext = (
 );
 
 export const renderReactNative = (
-  <div className="w-20">
+  <div className="w-24">
     <Icon
       width={24}
       height={24}
@@ -26,7 +26,7 @@ export const renderReactNative = (
 );
 
 export const renderReact = (
-  <div className="w-20">
+  <div className="w-24">
     <Icon
       width={24}
       height={24}
@@ -39,7 +39,7 @@ export const renderReact = (
 );
 
 export const renderReactQuery = (
-  <div className="w-20">
+  <div className="w-24">
     <Icon
       width={24}
       height={24}
@@ -51,7 +51,7 @@ export const renderReactQuery = (
 );
 
 export const renderExpo = (
-  <div className="w-20">
+  <div className="w-24">
     <Icon
       width={24}
       height={24}
@@ -63,7 +63,7 @@ export const renderExpo = (
 );
 
 export const renderZustand = (
-  <div className="w-20">
+  <div className="w-24">
     <Icon
       width={24}
       height={24}
@@ -74,7 +74,7 @@ export const renderZustand = (
   </div>
 );
 export const renderTailwind = (
-  <div className="w-20">
+  <div className="w-24">
     <Icon
       width={24}
       height={24}
@@ -86,7 +86,7 @@ export const renderTailwind = (
 );
 
 export const renderStyledComponents = (
-  <div className="w-20">
+  <div className="w-24">
     <Icon
       width={24}
       height={24}
@@ -94,12 +94,12 @@ export const renderStyledComponents = (
       style={{ color: "black" }}
       className="ml-auto mr-auto"
     />
-    <p>Tailwind</p>
+    <p>Styled C.</p>
   </div>
 );
 
 export const renderFirebase = (
-  <div className="w-20">
+  <div className="w-24">
     <Icon
       width={24}
       height={24}
@@ -111,7 +111,7 @@ export const renderFirebase = (
 );
 
 export const renderBugSnag = (
-  <div className="w-20">
+  <div className="w-24">
     <Icon
       width={24}
       height={24}
@@ -124,7 +124,7 @@ export const renderBugSnag = (
 );
 
 export const renderJest = (
-  <div className="w-20">
+  <div className="w-24">
     <Icon
       width={24}
       height={24}
@@ -136,7 +136,7 @@ export const renderJest = (
 );
 
 export const renderTurbo = (
-  <div className="w-20">
+  <div className="w-24">
     <Icon
       width={24}
       height={24}
@@ -148,7 +148,7 @@ export const renderTurbo = (
 );
 
 export const renderEslint = (
-  <div className="w-20">
+  <div className="w-24">
     <Icon
       width={24}
       height={24}
@@ -160,7 +160,7 @@ export const renderEslint = (
 );
 
 export const renderCommitizen = (
-  <div className="w-20">
+  <div className="w-24">
     <Icon
       width={24}
       height={24}
@@ -172,7 +172,7 @@ export const renderCommitizen = (
 );
 
 export const renderBabel = (
-  <div className="w-20">
+  <div className="w-24">
     <Icon
       width={24}
       height={24}
@@ -184,7 +184,7 @@ export const renderBabel = (
 );
 
 export const renderGit = (
-  <div className="w-20">
+  <div className="w-24">
     <Icon
       width={24}
       height={24}
@@ -196,7 +196,7 @@ export const renderGit = (
 );
 
 export const renderTypescript = (
-  <div className="w-20">
+  <div className="w-24">
     <Icon
       width={24}
       height={24}
@@ -208,7 +208,7 @@ export const renderTypescript = (
 );
 
 export const renderJavascript = (
-  <div className="w-20">
+  <div className="w-24">
     <Icon
       width={24}
       height={24}
@@ -219,4 +219,118 @@ export const renderJavascript = (
   </div>
 );
 
-// axios, intl, yup, faker, vite,prettier, husky,
+export const renderRedux = (
+  <div className="w-24">
+    <Icon
+      width={24}
+      height={24}
+      icon="devicon:redux"
+      className="ml-auto mr-auto"
+    />
+    <p>Redux</p>
+  </div>
+);
+
+export const renderSwift = (
+  <div className="w-24">
+    <Icon
+      width={24}
+      height={24}
+      icon="logos:swift"
+      className="ml-auto mr-auto"
+    />
+    <p>Swift</p>
+  </div>
+);
+
+export const renderPrettier = (
+  <div className="w-24">
+    <Icon
+      width={24}
+      height={24}
+      icon="logos:prettier"
+      className="ml-auto mr-auto"
+    />
+    <p>Prettier</p>
+  </div>
+);
+
+export const renderAxios = (
+  <div className="w-24">
+    <Icon
+      width={24}
+      height={24}
+      icon="logos:axios"
+      className="ml-auto mr-auto"
+    />
+    <p>Axios</p>
+  </div>
+);
+
+export const renderHusky = (
+  <div className="w-24">
+    <Icon
+      width={24}
+      height={24}
+      icon="vscode-icons:file-type-husky"
+      className="ml-auto mr-auto"
+    />
+    <p>Husky</p>
+  </div>
+);
+
+export const renderVite = (
+  <div className="w-24">
+    <Icon
+      width={24}
+      height={24}
+      icon="vscode-icons:file-type-vite"
+      className="ml-auto mr-auto"
+    />
+    <p>Vite</p>
+  </div>
+);
+
+export const renderSupabase = (
+  <div className="w-24">
+    <Icon
+      width={24}
+      height={24}
+      icon="logos:supabase-icon"
+      className="ml-auto mr-auto"
+    />
+    <p>Supabase</p>
+  </div>
+);
+
+export const renderRestApi = (
+  <div className="w-24">
+    <Icon
+      width={24}
+      height={24}
+      icon="dashicons:rest-api"
+      className="ml-auto mr-auto"
+    />
+    <p>API Rest</p>
+  </div>
+);
+export const renderVercel = (
+  <div className="w-24">
+    <Icon
+      width={24}
+      height={24}
+      icon="devicon:vercel"
+      className="ml-auto mr-auto"
+    />
+    <p>Vercel</p>
+  </div>
+);
+
+export const renderAWS = (
+  <div className="w-24">
+    <Icon width={24} height={24} icon="logos:aws" className="ml-auto mr-auto" />
+    <p>AWS</p>
+  </div>
+);
+
+// , intl, yup, vite,

@@ -33,7 +33,7 @@ const Navbar: React.FC<Props> = props => {
           </li>
           <li className="navigation__item">
             <a href="#" className="navigation__link">
-              <span>04</span> Stories
+              <span>04</span> Certificates
             </a>
           </li>
           <li className="navigation__item">

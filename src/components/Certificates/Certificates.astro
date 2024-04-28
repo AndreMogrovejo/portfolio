@@ -1,33 +1,27 @@
-import React from "react";
-
-import { StoriesProps as Props } from "./Stories.types";
-
-const Stories: React.FC<Props> = props => {
-  return (
-    <section className="section-stories">
-      <div className="bg-video">
-        <video className="bg-video__content" autoPlay muted loop>
+<section class="section-stories">
+      <div class="bg-video">
+        <video class="bg-video__content" auto-play muted loop>
           <source src="./video.mp4" type="video/mp4" />
           <source src="./video.webm" type="video/webm" />
           Your browser is not supported!
         </video>
       </div>
-      <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">We make people genuinely happy</h2>
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">Certificates</h2>
       </div>
 
-      <div className="row">
-        <div className="story">
-          <figure className="story__shape">
+      <div class="row">
+        <div class="story">
+          <figure class="story__shape">
             <img
               src="./Multicines.webp"
               alt="Person on a tour"
-              className="story__img"
+              class="story__img"
             />
-            <figcaption className="story__caption">Mary Smith</figcaption>
+            <figcaption class="story__caption">Mary Smith</figcaption>
           </figure>
-          <div className="story__text">
-            <h3 className="heading-tertiary u-margin-bottom-small">
+          <div class="story__text">
+            <h3 class="heading-tertiary u-margin-bottom-small">
               I had the best week ever with my family
             </h3>
             <p>
@@ -41,18 +35,18 @@ const Stories: React.FC<Props> = props => {
         </div>
       </div>
 
-      <div className="row">
-        <div className="story">
-          <figure className="story__shape">
+      <div class="row">
+        <div class="story">
+          <figure class="story__shape">
             <img
               src="./Appedir.webp"
               alt="Person on a tour"
-              className="story__img"
+              class="story__img"
             />
-            <figcaption className="story__caption">Jack Wilson</figcaption>
+            <figcaption class="story__caption">Jack Wilson</figcaption>
           </figure>
-          <div className="story__text">
-            <h3 className="heading-tertiary u-margin-bottom-small">
+          <div class="story__text">
+            <h3 class="heading-tertiary u-margin-bottom-small">
               WOW! My life is completely different now
             </h3>
             <p>
@@ -66,13 +60,9 @@ const Stories: React.FC<Props> = props => {
         </div>
       </div>
 
-      <div className="u-center-text u-margin-top-huge">
-        <a href="#" className="btn-text">
+      <div class="u-center-text u-margin-top-huge">
+        <a href="#" class="btn-text">
           Read all stories &rarr;
         </a>
       </div>
     </section>
-  );
-};
-
-export default Stories;

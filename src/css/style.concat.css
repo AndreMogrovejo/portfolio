@@ -720,11 +720,11 @@ body {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 52rem; }
+  min-height: 52rem; }
   .card__side {
     height: 52rem;
     transition: all 0.8s ease;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -736,7 +736,9 @@ body {
     .card__side--front {
       background-color: #fff; }
     .card__side--back {
-      transform: rotateY(180deg); }
+      margin-top: -1rem;
+      transform: rotateY(0);
+      clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%); }
       .card__side--back-1 {
         background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
       .card__side--back-2 {
@@ -757,7 +759,13 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    margin-top: -10rem; }
+    margin-top: -10rem;
+    cursor: pointer; }
+    .card__picture:hover {
+      transition: all 0.2s;
+      transform: scale(1.05) translateY(-0.5rem);
+      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+      z-index: 20; }
     .card__picture--1 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.1), rgba(255, 119, 48, 0.1)), url(/Multicines.webp); }
     .card__picture--2 {
@@ -783,7 +791,8 @@ body {
   .card__heading-span {
     padding: 1rem 1.5rem;
     -webkit-box-decoration-break: clone;
-    box-decoration-break: clone; }
+    box-decoration-break: clone;
+    cursor: pointer; }
     .card__heading-span--1 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
     .card__heading-span--2 {
@@ -796,23 +805,21 @@ body {
       background-image: linear-gradient(to right bottom, rgba(255, 138, 8, 0.85), rgba(255, 101, 0, 0.85)); }
     .card__heading-span--6 {
       background-image: linear-gradient(to right bottom, rgba(87, 108, 188, 0.85), rgba(11, 36, 71, 0.85)); }
-  .card__details {
-    padding: 3rem; }
-    .card__details ul {
-      list-style: none;
-      width: 80%;
-      margin: 0 auto; }
-      .card__details ul li {
-        font-size: 1.5rem;
-        padding: 1rem; }
-        .card__details ul li:not(:last-child) {
-          border-bottom: 1px solid #eee; }
-        .card__details ul li p {
-          line-height: 1.2rem;
-          font-size: small; }
-          @media only screen and (max-width: 37.5em) {
-            .card__details ul li p {
-              display: none; } }
+  .card__details ul {
+    list-style: none;
+    width: 92%;
+    margin: 0 auto; }
+    .card__details ul li {
+      font-size: 1.5rem;
+      padding: 1rem; }
+      .card__details ul li:not(:last-child) {
+        border-bottom: 1px solid #eee; }
+      .card__details ul li p {
+        line-height: 1.2rem;
+        font-size: small; }
+        @media only screen and (max-width: 75em) {
+          .card__details ul li p {
+            display: none; } }
   .card__cta {
     position: absolute;
     top: 50%;
@@ -1198,8 +1205,7 @@ body {
   .footer__copyright {
     border-top: 1px solid #777;
     padding-top: 2rem;
-    width: 80%;
-    float: right; }
+    width: 60%; }
     @media only screen and (max-width: 56.25em) {
       .footer__copyright {
         width: 100%;
@@ -1430,16 +1436,16 @@ body {
     .section-about {
       padding: 20rem 0; } }
 
-.section-features {
+.section-experience {
   padding: 20rem 0;
   background-image: linear-gradient(to right bottom, rgba(83, 92, 145, 0.8), rgba(7, 15, 43, 0.8)), url(/workspace-2.webp);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
-  .section-features > * {
+  .section-experience > * {
     transform: skewY(7deg); }
   @media only screen and (max-width: 56.25em) {
-    .section-features {
+    .section-experience {
       padding: 10rem 0; } }
 
 .section-projects {

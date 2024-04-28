@@ -1618,7 +1618,7 @@ body {
     padding: 20rem 0;
   }
 }
-.section-features {
+.section-experience {
   padding: 20rem 0;
   background-image: linear-gradient(
       to right bottom,
@@ -1630,11 +1630,11 @@ body {
   transform: skewY(-7deg);
   margin-top: -10rem;
 }
-.section-features > * {
+.section-experience > * {
   transform: skewY(7deg);
 }
 @media only screen and (max-width: 56.25em) {
-  .section-features {
+  .section-experience {
     padding: 10rem 0;
   }
 }
