@@ -29,8 +29,6 @@
     "astro": "^4.6.3",
     "autoprefixer": "^10.4.19",
     "concat": "^1.0.3",
-    "depcheck": "^1.4.7",
-    "polished": "^4.3.1",
     "postcss": "^8.4.38",
     "postcss-cli": "^11.0.0",
     "react": "^18.2.0",
